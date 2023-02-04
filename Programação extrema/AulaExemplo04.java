@@ -39,11 +39,14 @@ public class AulaExemplo04 {
         //o mesmo funciona para todos operadores *=, /=, %=.
     //-------------------------------------------------------------------------------------------
 
-        int numero = 6;
-        System.out.println(numero >= 7);
-        System.out.println(numero == 7); //compara se é igual.
-        System.out.println(numero !=7); //diferente (nega a informação)
-        
-    }
+        int valor1, valor2;
 
+        valor1 = 10;
+        valor2 = 5;
+        System.out.println(valor1 >= valor2);
+        System.out.println(valor1 == valor2); //compara se é igual.
+        System.out.println(valor1 != valor2); //diferente (nega a informação)
+    //-------------------------------------------------------------------------------------------- 
+    }
+    
 }
