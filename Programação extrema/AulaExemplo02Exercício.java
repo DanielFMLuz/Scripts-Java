@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class AulaExemplo04Exercício {
+public class AulaExemplo02Exercício {
     public static void main(String[] args) {
         
         double nota1 = 9.0;

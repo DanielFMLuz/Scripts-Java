@@ -1,4 +1,4 @@
-public class AulaExemplo05Switch {
+public class AulaExemplo03Switch {
     public static void main(String[] args) {
         
         int numero = 3;
