@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 import java.util.LinkedHashSet;
 
-public class Principal{
+public class Exemplo2{
     public static void main(String[] args) {
         
         ArrayList<Integer> numerosArraylist = new ArrayList<>();
@@ -11,7 +11,11 @@ public class Principal{
         
         System.out.println("ArrayList" + numerosArraylist);
 
-        LinkedHashSet<Integer> numerosLinkedHashSet = new LinkedHashSet<>(numerosArraylist);
+        LinkedHashSet<Integer> numerosLinkedHashSet = new LinkedHashSet<>();
+        numerosLinkedHashSet.addAll(numerosArraylist);
+        numerosLinkedHashSet.add(4);
+
         System.out.println("LinkedHashSet: " + numerosLinkedHashSet);
     }
 }
+

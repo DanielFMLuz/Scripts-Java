@@ -1,28 +1,25 @@
 import java.util.ArrayList;
-import java.util.LinkedList;
 import java.util.List;
 
-public class Principal {
+public class Exemplo31 {
     public static void main(String[] args) {
-        List<String> listaNome = new LinkedList<>();
+        List<String> listaNome = new ArrayList<>();
         listaNome.add("Oswaldo");
         listaNome.add("Gisele");
         listaNome.add("Giovanna");
         listaNome.add("Giuliana");
-        listaNome.add(0,"Luck");
         
         System.out.println("Antes");
-
-        for (String nome: listaNome){
-            System.out.println(nome);
+        
+        for(String nome: listaNome){
+            System.out. println(nome);
         }
-
-        listaNome.set(1, "Jujuba");
+        
+        listaNome.remove(0);
         
         System.out.println();
-
         System.out.println("Depois");
-        
+
         for(String nome: listaNome){
             System.out. println(nome);
         }
